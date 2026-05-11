@@ -1,10 +1,11 @@
+// 基礎プログラミングII 第3回 Scrummyプロジェクト
 
 SchooMyUtilities scmUtils = SchooMyUtilities();
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(9600);
 }
 
 void loop() {
-  Serial.println(analogRead(A5));
+  Serial.println(analogRead(A5));
 }
